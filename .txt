@@ -1,0 +1,1379 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2016-12-12T09:42:37Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:4761229" metadataPrefix="pmc">https://www.ncbi.nlm.nih.gov/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:4761229</identifier><datestamp>2016-03-01</datestamp><setSpec>cptpsp</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">CPT Pharmacometrics Syst Pharmacol</journal-id>
+      <journal-id journal-id-type="iso-abbrev">CPT Pharmacometrics Syst Pharmacol</journal-id>
+      <journal-id journal-id-type="doi">10.1002/(ISSN)2163-8306</journal-id>
+      <journal-id journal-id-type="publisher-id">PSP4</journal-id>
+      <journal-title-group>
+        <journal-title>CPT: Pharmacometrics &amp; Systems Pharmacology</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2163-8306</issn>
+      <publisher>
+        <publisher-name>John Wiley and Sons Inc.</publisher-name>
+        <publisher-loc>Hoboken</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC4761229</article-id>
+      <article-id pub-id-type="pmcid">PMC4761229</article-id>
+      <article-id pub-id-type="pmc-uid">4761229</article-id>
+      <article-id pub-id-type="pmid">26933516</article-id>
+      <article-id pub-id-type="doi">10.1002/psp4.12041</article-id>
+      <article-id pub-id-type="publisher-id">PSP412041</article-id>
+      <article-categories>
+        <subj-group subj-group-type="overline">
+          <subject>Tutorial</subject>
+        </subj-group>
+        <subj-group subj-group-type="heading">
+          <subject>Tutorial</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The Many Flavors of Model‐Based Meta‐Analysis: Part I—Introduction and Landmark Data</article-title>
+        <alt-title alt-title-type="right-running-head">The Many Flavors of Model‐Based Meta‐Analysis: Part 1—Introduction and Landmark Data</alt-title>
+        <alt-title alt-title-type="left-running-head">Boucher and Bennetts</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib id="psp412041-cr-0001" contrib-type="author" corresp="yes">
+          <name>
+            <surname>Boucher</surname>
+            <given-names>M</given-names>
+          </name>
+          <xref ref-type="aff" rid="psp412041-aff-0001">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib id="psp412041-cr-0002" contrib-type="author">
+          <name>
+            <surname>Bennetts</surname>
+            <given-names>M</given-names>
+          </name>
+          <xref ref-type="aff" rid="psp412041-aff-0001">
+<sup>1</sup>
+</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="psp412041-aff-0001">
+        <label>
+          <sup>1</sup>
+        </label>
+        <institution>Pharmacometrics, Pfizer Ltd</institution>
+        <named-content content-type="city">Sandwich</named-content>
+        <named-content content-type="country-part">Kent</named-content>
+        <country country="GB">UK</country>
+      </aff>
+      <author-notes>
+        <corresp id="correspondenceTo"><label>*</label>Correspondence: M Boucher (<email>martin.boucher@pfizer.com</email>)</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>13</day>
+        <month>2</month>
+        <year>2016</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <month>2</month>
+        <year>2016</year>
+      </pub-date>
+      <volume>5</volume>
+      <issue>2</issue>
+      <issue-id pub-id-type="doi">10.1002/psp4.v5.2</issue-id>
+      <fpage>54</fpage>
+      <lpage>64</lpage>
+      <history>
+        <date date-type="received">
+          <day>21</day>
+          <month>5</month>
+          <year>2015</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>08</day>
+          <month>9</month>
+          <year>2015</year>
+        </date>
+        <date date-type="accepted">
+          <day>09</day>
+          <month>9</month>
+          <year>2015</year>
+        </date>
+      </history>
+      <permissions>
+        <!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2016 ASCPT <copyright-statement>-->
+        <copyright-statement content-type="article-copyright">© 2016 The Authors CPT: Pharmacometrics &amp; Systems Pharmacology published by Wiley Periodicals, Inc. on behalf of American Society for Clinical Pharmacology and Therapeutics</copyright-statement>
+        <license license-type="creativeCommonsBy-nc-nd">
+          <license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution‐NonCommercial‐NoDerivs</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.</license-p>
+        </license>
+      </permissions>
+      <self-uri content-type="pdf" xlink:type="simple" xlink:href="file:PSP4-5-54.pdf"/>
+      <abstract abstract-type="main">
+        <p>Meta‐analysis is an increasingly important aspect of drug development as companies look to benchmark their own compounds with the competition. There is scope to carry out a wide range of analyses addressing key research questions from preclinical through to postregistration. This set of tutorials will take the reader through key model‐based meta‐analysis (MBMA) methods with this first installment providing a general introduction before concentrating on classical and Bayesian methods for landmark data.</p>
+      </abstract>
+      <counts>
+        <page-count count="11"/>
+      </counts>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>source-schema-version-number</meta-name>
+          <meta-value>2.0</meta-value>
+        </custom-meta>
+        <custom-meta>
+          <meta-name>component-id</meta-name>
+          <meta-value>psp412041</meta-value>
+        </custom-meta>
+        <custom-meta>
+          <meta-name>cover-date</meta-name>
+          <meta-value>February 2016</meta-value>
+        </custom-meta>
+        <custom-meta>
+          <meta-name>details-of-publishers-convertor</meta-name>
+          <meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:4.7.6 mode:remove_FC converted:20.02.2016</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+  </front>
+  <body>
+    <p>Understanding the key safety and efficacy attributes of other compounds, either on the market or in the pipeline, is of critical importance for companies developing new drugs. There is a need for new compounds to differentiate from current standard of care (SOC) treatments and it is generally no longer desirable or acceptable to produce “me too” drugs.</p>
+    <p>Clearly, when a company needs to show improvement over an SOC, it is vitally important to fully understand the safety and efficacy characteristics of that SOC in comparison to placebo (or other comparator). The best way to do this is to carry out a meta‐analysis to quantify these characteristics as accurately as possible. A meta‐analysis uses statistical methods to pool and analyze data across multiple studies.</p>
+    <p>Ideally any meta‐analysis approach should be geared toward specific research questions, and the types of questions will be discussed in more detail in the next section. Meta‐analysis can be used to answer a wide variety of questions and there are a range of methods that can be applied. Different disciplines (e.g., pharmacometrics and statistics) might use different but equally valid approaches to answer the same question using techniques that are common to their field.</p>
+    <p>The term “model‐based meta‐analysis” (MBMA) has tended to sit in the clinical pharmacology world where pharmacologic models, such as E<sub>max</sub>, are applied to meta‐data.<xref rid="psp412041-bib-0001" ref-type="ref">1</xref> Here, the desire is to use all available relevant information, such as time‐course and dose information that fits in with the learning (rather than just confirming) approach to drug development.<xref rid="psp412041-bib-0002" ref-type="ref">2</xref> Mould<xref rid="psp412041-bib-0003" ref-type="ref">3</xref> gives an overview of how MBMA is an important tool for quantitative decision‐making and there is an increasing pool of published examples.<xref rid="psp412041-bib-0004" ref-type="ref">4</xref>, <xref rid="psp412041-bib-0005" ref-type="ref">5</xref>, <xref rid="psp412041-bib-0006" ref-type="ref">6</xref> However, MBMA is not exclusive to the clinical pharmacology area, as many meta‐analyses involve models and this tutorial uses the term in this wider context where MBMA forms part of model‐based drug development and pharmacostatistical models are applied to safety and efficacy data across all phases of drug development for informed decision‐making.<xref rid="psp412041-bib-0007" ref-type="ref">7</xref>, <xref rid="psp412041-bib-0008" ref-type="ref">8</xref>
+</p>
+    <p>Meta‐analysis methodology continues to advance and evolve. Sutton and Higgins<xref rid="psp412041-bib-0009" ref-type="ref">9</xref> provide a useful overview of recent developments as of 2008 and, since then, areas such as network meta‐analysis (NMA) have grown exponentially.<xref rid="psp412041-bib-0009" ref-type="ref">9</xref>, <xref rid="psp412041-bib-0010" ref-type="ref">10</xref>
+</p>
+    <p>The purpose in this set of articles is to illustrate the various models and techniques used both within and outside the clinical pharmacology world to hopefully provide a wider picture. Code and datasets will allow the reader to replicate the results presented.</p>
+    <p>Typically, meta‐analysis is the quantitative synthesis of a systematic review; a thorough review of the available data/literature using explicit and reproducible steps. This involves defining the research questions, specifying the participants, interventions, comparators, outcomes, and studies, developing the search criteria and sources, study selection, data collection, and assessment of bias.<xref rid="psp412041-bib-0011" ref-type="ref">11</xref> There is increasing literature and guidance on the process and quality of systematic review (e.g., Cochrane handbook, Grades of Recommendation, Assessment, Development and Evaluation (GRADE), and Preferred Reporting Items for Systematic Reviews and Meta‐Analyses) and, although crucial to the quality of the resulting meta‐analysis, this set of articles will assume that all data are correct and appropriate.<xref rid="psp412041-bib-0012" ref-type="ref">12</xref>, <xref rid="psp412041-bib-0013" ref-type="ref">13</xref>, <xref rid="psp412041-bib-0014" ref-type="ref">14</xref>, <xref rid="psp412041-bib-0015" ref-type="ref">15</xref>
+</p>
+    <p>The Preferred Reporting Items for Systematic Reviews and Meta‐Analyses statement consists of a 27‐item checklist and a four‐phase flow diagram. The checklist includes items deemed essential for transparent reporting of a systematic review or meta‐analysis across seven sections: title, abstract, introduction, methods, results, discussion, and funding. There are several specialized extensions to the guidelines, including one which is tailored to the specific requirements of reporting systematic reviews and meta‐analysis of individual patient data and another developed specifically to improve the reporting of NMA.<xref rid="psp412041-bib-0016" ref-type="ref">16</xref>, <xref rid="psp412041-bib-0017" ref-type="ref">17</xref> It is strongly recommended that these guidelines are followed when reporting the results of a formal meta‐analysis. However, the focus of this set of articles was methodology and any results presented are examples to illustrate this methodology rather than a formal report.</p>
+    <p>This first article serves as an introduction to MBMA and then focuses mainly on the analysis of landmark data. The next (second) section discusses the types of questions that can be addressed with MBMA. The next (third) section describes the key methodologies for landmark data. The next (fourth) section gives an overview of some of the software that can be used to conduct meta‐analysis. The next (fifth) section presents two landmark examples, one a traditional pair‐wise meta‐analysis and the other a dose response model, along with corresponding models and results. The next (sixth) section provides some closing discussion and the next (seventh) section briefly describes some of the methodologies that will be covered in future tutorials.</p>
+    <p>In the <bold>Supplementary Materials</bold>, R, NONMEM, and OpenBUGS code are provided and the datasets used will be available from the journal website to allow users to reproduce the results.<xref rid="psp412041-bib-0018" ref-type="ref">18</xref>, <xref rid="psp412041-bib-0019" ref-type="ref">19</xref>, <xref rid="psp412041-bib-0020" ref-type="ref">20</xref>
+</p>
+    <sec id="psp412041-sec-0002">
+      <title>WHY META‐ANALYSES ARE CONDUCTED</title>
+      <p>The motivation behind doing a meta‐analysis can vary a great deal depending on which research questions are being asked. This section will outline some key uses of meta‐analysis in clinical drug development.</p>
+      <sec id="psp412041-sec-0003">
+        <title>Identifying a disease level desired profile</title>
+        <p>Typically, a product concept will be developed for a disease area using customer insights from payers, prescribers, and regulatory bodies, with a goal of identifying key features of a drug together with target values. MBMA may be used to speculate how a new drug is expected to compare to the current SOC and the emerging competition, both positively and negatively. This aids a drug development strategy driven by valuable differentiation and creates a strong foundation for decision‐making as data become available.</p>
+      </sec>
+      <sec id="psp412041-sec-0004">
+        <title>Learning and hypothesis generating</title>
+        <p>A great deal of published meta‐analyses focus on specific endpoints, such as change from baseline at a time‐point (e.g., end of study) or an adverse event incidence rate and might look to see whether a treatment is significantly better than a placebo or a comparator. However, there is a great amount of learning that can be gained from meta‐analyses that lends itself to estimation rather than formal hypothesis testing. For example, there may be a need to understand the time‐course of a comparator and/or placebo response to assess onset of action and/or maintenance of effect. After readout of a short phase 2 study, the clinical team may want to predict the likely response at later time‐points for a phase 2b study. Correlation between end points may be useful if a drug project is changing its primary end point of interest, although this topic is not without its issues.<xref rid="psp412041-bib-0021" ref-type="ref">21</xref>, <xref rid="psp412041-bib-0022" ref-type="ref">22</xref> Studies in a specific indication may have changed over time with regard to placebo response, background therapy, or treatment comparator. Differing design or population characteristics may inform variation in placebo response. Information on all these aspects may be available in the literature or other internal drug programs.</p>
+      </sec>
+      <sec id="psp412041-sec-0005">
+        <title>Generating target values for decision‐making</title>
+        <p>Decision criteria are increasingly being used to help quick and efficient decision‐making after study readout. These decision criteria are commonly based on the performance characteristics of the current SOC or other advanced pipeline drugs. One such decision criteria might be that on readout of a proof of concept study, the primary end point achieves a minimum target value that comes from a meta‐analysis of a key comparator. The target value could be the point estimate itself from the meta‐analysis or a scalar of it (e.g., target is 50% greater than SOC).</p>
+      </sec>
+      <sec id="psp412041-sec-0006">
+        <title>Comparative effectiveness</title>
+        <p>In general, comparative effectiveness research is the direct comparison of two or more existing health care interventions to determine which works best for which patients and which poses the greatest benefits and harms. NMA, incorporating mixed treatment comparisons and indirect treatment comparisons, provides quantitative information for evidence‐based decision‐making in the absence of randomized controlled trials involving direct comparisons of all the treatments of interest within the studies.<xref rid="psp412041-bib-0023" ref-type="ref">23</xref> Mixed treatment comparisons combines both direct and indirect evidence for particular pairwise comparisons, thus synthesizing more evidence than traditional pairwise meta‐analysis.</p>
+        <p>NMA allows simultaneous comparison of multiple treatment options that have been compared in randomized controlled trials forming a connected network of treatment comparisons, and provides a framework for model comparison and assessment of evidence consistency and is typically performed on summary level data during late‐stage development in order to compare relative performance of multiple (&gt;2) drugs, for a single end point, at a single time point for a specific treatment regime of interest.</p>
+        <p>An NMA provides two measures of comparative effectiveness for a specific outcome: the relative treatment effect for all pairwise comparisons and a ranking of the treatments.</p>
+        <p>Other forms of MBMA can also be used for comparative effectiveness in the absence of direct comparisons of all the treatments of interest.</p>
+      </sec>
+      <sec id="psp412041-sec-0007">
+        <title>Putting a study result into context</title>
+        <p>After a study reads out, it is useful to plot the new data alongside the relevant historical data to assess, for example, how the placebo response compares to the older data, to highlight other similarities and differences, and to investigate possible explanations for these differences.</p>
+      </sec>
+      <sec id="psp412041-sec-0008">
+        <title>Simulating new studies based on internal patient level data and external SOC data</title>
+        <p>It may be planned to include the SOC treatment in a future study to go head‐to‐head with the experimental drug. In order to understand the operating characteristics of this future study, a model combining the previous internal patient level data and the summary level comparator data may be used to simulate different study designs. This simulation work can help to quantify the probability of a new drug being superior to the SOC to inform the design of the study and to construct meaningful quantitative go/no go criteria for the drug program based on prior assumptions with which to compare the actual study results. The challenges of such modeling include the combining of aggregate data and individual patient data, and possibly making an indirect comparison between two compounds that have never been compared head‐to‐head.<xref rid="psp412041-bib-0024" ref-type="ref">24</xref>
+</p>
+      </sec>
+    </sec>
+    <sec id="psp412041-sec-0009">
+      <title>LANDMARK META‐ANALYSIS METHODOLOGIES</title>
+      <p>A landmark meta‐analysis is defined here as the analysis of a response at a single timepoint (e.g., pain response at week 12) across multiple studies rather than modeling multiple timepoints (longitudinal meta‐analysis). Primary and secondary end points in clinical trials are usually of this nature.</p>
+      <sec id="psp412041-sec-0010">
+        <title>Sources of variation</title>
+        <p>To estimate mean drug effects, there are at least three sources of variation to consider:
+<list list-type="order" id="psp412041-list-0001"><list-item id="psp412041-li-0001"><p>Sampling error, the error caused by observing a sample instead of the whole population.</p></list-item><list-item id="psp412041-li-0002"><p>Study‐level characteristics, where patient differences or study differences are qualitative or quantitative effect modifiers.</p></list-item><list-item id="psp412041-li-0003"><p>Between‐study variation, the remaining, unexplained, variability in treatment effects across studies. Note, when pooling within‐trial contrasts, the main effect of trial has been eliminated and so this “between‐study variability” reflects the treatment‐by‐study interaction.<xref rid="psp412041-bib-0025" ref-type="ref">25</xref>
+</p></list-item></list>
+</p>
+      </sec>
+      <sec id="psp412041-sec-0011">
+        <title>Statistical models</title>
+        <p>There are two general types of statistical model for meta‐analysis which are fixed effects and random effects, as described below.<xref rid="psp412041-bib-0026" ref-type="ref">26</xref>
+</p>
+      </sec>
+      <sec id="psp412041-sec-0012">
+        <title>Fixed effects</title>
+        <p>In fixed effect models (<bold>Figure</bold>
+<xref rid="psp412041-fig-0001" ref-type="fig">1</xref>), this tutorial uses the definition that each study provides an estimate for the same underlying mean effect (θ). There is no between‐study variation in treatment effect (after possibly accounting for covariates). The studies only differ in how well the study sample estimates θ. Each of the red dots in <bold>Figure</bold>
+<xref rid="psp412041-fig-0001" ref-type="fig">1</xref> represents a study result with the assumption that the underlying true effect is identical and any observed deviation from that true effect is due to sampling error, as described above.</p>
+        <fig fig-type="Figure" xml:lang="en" id="psp412041-fig-0001" orientation="portrait" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p>Illustration of fixed effects assumption.</p>
+          </caption>
+          <graphic id="nlm-graphic-1" xlink:href="PSP4-5-54-g001"/>
+        </fig>
+        <p>It should be noted that the fixed effect method is valid without assuming a common underlying effect size.<xref rid="psp412041-bib-0027" ref-type="ref">27</xref> However, for simplicity of understanding, this article uses the definition that does assume homogeneity across trials.</p>
+      </sec>
+      <sec id="psp412041-sec-0013">
+        <title>Random effects</title>
+        <p>In random effects models (<bold>Figure</bold>
+<xref rid="psp412041-fig-0002" ref-type="fig">2</xref>), each study is associated with a different, but related, underlying parameter (θ<sub>i</sub>) distributed around a mean effect (θ). In <bold>Figure</bold>
+<xref rid="psp412041-fig-0002" ref-type="fig">2</xref>, each of the red dots represents observed study results (Y<sub>i</sub>) that are assumed to belong to a common distribution. After accounting for covariates, there is still some unexplained between‐study variability in addition to sampling error. Alternatively, there may not be any measured covariates that explain this between‐study variability in response that creates more uncertainty going forward with new studies.</p>
+        <fig fig-type="Figure" xml:lang="en" id="psp412041-fig-0002" orientation="portrait" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p>Illustration of random effects assumption.</p>
+          </caption>
+          <graphic id="nlm-graphic-3" xlink:href="PSP4-5-54-g002"/>
+        </fig>
+      </sec>
+      <sec id="psp412041-sec-0014">
+        <title>Assessment of heterogeneity</title>
+        <p>Because meta‐analyses typically pool studies that are diverse clinically and methodologically, it is unlikely that a common effect exists. This is due to differences in studies, such as patient inclusion criteria, background treatment, dosing regimens, or study quality. If a common effect cannot be assumed, then heterogeneity is believed to be present.</p>
+        <p>There are a variety of methods to assess heterogeneity. Higgins <italic>et al</italic>.<xref rid="psp412041-bib-0028" ref-type="ref">28</xref> provide an overview and assessment of several methods, including the Q statistic, I<sup>2</sup>, H<sup>2</sup>, R, and the value of τ<sup>2</sup>. They concluded that I<sup>2</sup> and H<sup>2</sup> are useful and so these are described below together with the Q statistic, which is used to derive both methods.</p>
+      </sec>
+      <sec id="psp412041-sec-0015">
+        <title>Q statistic</title>
+        <p>The classical measure of heterogeneity is Cochran's Q:
+<disp-formula id="psp412041-disp-0001"><mml:math id="nlm-math-1"><mml:mrow><mml:mi>Q</mml:mi><mml:mo>=</mml:mo><mml:mstyle displaystyle="true"><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>r</mml:mi></mml:munderover><mml:mrow><mml:msub><mml:mi>W</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mstyle><mml:msup><mml:mrow><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>θ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mover accent="true"><mml:mi>θ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mrow><mml:mi>F</mml:mi><mml:mi>E</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>,</mml:mo><mml:mo> </mml:mo><mml:mo> </mml:mo><mml:mtext>where</mml:mtext><mml:mo> </mml:mo><mml:mtext>weight</mml:mtext><mml:mo> </mml:mo><mml:msub><mml:mi>W</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:msubsup><mml:mi>s</mml:mi><mml:mi>i</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:mrow></mml:math></disp-formula>s<sub>i</sub> is the within study standard error of 
+<mml:math id="nlm-math-2"><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>θ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:math>, 
+<mml:math id="nlm-math-3"><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>θ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:math> is the observed treatment difference for the i<sup>th</sup> study, and 
+<mml:math id="nlm-math-4"><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>θ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mrow><mml:mi>F</mml:mi><mml:mi>E</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math> is the fixed effect estimate for the r studies. Q follows approximately a χ<sup>2</sup> distribution with r−1 degrees of freedom (df). A problem with the Q statistic is that it has poor power when there are small numbers of trials in the meta‐analysis and is overpowered when there are many studies.<xref rid="psp412041-bib-0028" ref-type="ref">28</xref>, <xref rid="psp412041-bib-0029" ref-type="ref">29</xref> This means that Q statistic values cannot routinely be compared across meta‐analyses.</p>
+      </sec>
+      <sec id="psp412041-sec-0016">
+        <title>I<sup>2</sup> statistic</title>
+        <p>I<sup>2</sup> is a commonly used measure of the degree of inconsistency across studies and is a percentage of total variance that is due to heterogeneity rather than to chance. It is calculated as:
+<disp-formula id="psp412041-disp-0002"><mml:math id="nlm-math-5"><mml:mrow><mml:msup><mml:mi>I</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mo>=</mml:mo><mml:mn>100</mml:mn><mml:mi>%</mml:mi><mml:mo>×</mml:mo><mml:mfrac><mml:mrow><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>Q</mml:mi><mml:mo>−</mml:mo><mml:mi>d</mml:mi><mml:mi>f</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:mrow><mml:mi>Q</mml:mi></mml:mfrac></mml:mrow></mml:math></disp-formula>
+</p>
+        <p>Like Q, I<sup>2</sup> has major flaws. Rücker <italic>et al</italic>.<xref rid="psp412041-bib-0030" ref-type="ref">30</xref> showed that, as within study precision increases, for constant between study variability (τ<sup>2</sup>), I<sup>2</sup> increases toward 100%. Given the potentially different study sizes and precision within and across meta‐analyses, this statistic may be of little use as a comparison between them.</p>
+      </sec>
+      <sec id="psp412041-sec-0017">
+        <title>H<sup>2</sup> statistic</title>
+        <p>H<sup>2</sup> is the relative excess in Q compared to the expected value of Q (when there is no heterogeneity). Hence, H<sup>2</sup> = Q/(r−1). Unlike Q, H<sup>2</sup> does not depend on the number of studies in the meta‐analysis. A value of one would indicate no heterogeneity. There are several methods for producing intervals for H<sup>2</sup> where the lower bound can be compared to one to evaluate whether there is meaningful heterogeneity.<xref rid="psp412041-bib-0031" ref-type="ref">31</xref>
+</p>
+      </sec>
+      <sec id="psp412041-sec-0018">
+        <title>Between‐study variance (τ<sup>2</sup>)</title>
+        <p>τ<sup>2</sup> represents the between‐study variance based on a random effects analysis that provides a measure of the extent of heterogeneity but not a measure of impact. It is specific to a particular treatment measure and cannot be compared across meta‐analyses.</p>
+      </sec>
+      <sec id="psp412041-sec-0019">
+        <title>Prediction interval</title>
+        <p>The presence of significant heterogeneity creates uncertainty for future studies that might be conducted. A prediction interval for the true effect (θ<sub>i</sub>) in a theoretical new study will demonstrate the consequence of heterogeneity as it incorporates both the precision of the estimate and the between‐study variability.<xref rid="psp412041-bib-0032" ref-type="ref">32</xref> Unlike a confidence interval, prediction intervals are about future expected data and in drug development that is usually an important consideration, rather than just quantifying the precision of treatment effects of different compounds. For the two examples in the fifth section, prediction intervals will be presented alongside the fixed effects and random effects estimates. As Higgins <italic>et al</italic>.<xref rid="psp412041-bib-0032" ref-type="ref">32</xref> describe, an approximate 100(1−α)% prediction interval for a new study can be written as:
+<disp-formula id="psp412041-disp-0003"><mml:math id="nlm-math-6"><mml:mrow><mml:mover accent="true"><mml:mi>μ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mo>±</mml:mo><mml:msubsup><mml:mi>t</mml:mi><mml:mrow><mml:mi>r</mml:mi><mml:mo>−</mml:mo><mml:mn>2</mml:mn></mml:mrow><mml:mi>α</mml:mi></mml:msubsup><mml:msqrt><mml:mrow><mml:mo>{</mml:mo><mml:msup><mml:mover accent="true"><mml:mi>τ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:mi>S</mml:mi><mml:mover accent="true"><mml:mi>E</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mover accent="true"><mml:mi>μ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>}</mml:mo></mml:mrow></mml:msqrt></mml:mrow></mml:math></disp-formula>
+</p>
+        <p>Where there are r studies, 
+<mml:math id="nlm-math-7"><mml:mover accent="true"><mml:mi>μ</mml:mi><mml:mo>^</mml:mo></mml:mover></mml:math> is the random effects estimate of the response of interest, 
+<mml:math id="nlm-math-8"><mml:mrow><mml:mi>S</mml:mi><mml:mover accent="true"><mml:mi>E</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mo stretchy="false">(</mml:mo><mml:mover accent="true"><mml:mi>μ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math> is the corresponding standard error, and 
+<mml:math id="nlm-math-9"><mml:mrow><mml:msup><mml:mover accent="true"><mml:mi>τ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:math> is the estimated between‐study variance. Note that with the Bayesian approach there is uncertainty in the between‐study variance estimate, as well as the effect estimate.</p>
+        <p>It is recommended that the prediction interval along with an estimate of τ and corresponding confidence interval are presented and assessed. Although cautious in advocating their use, code to produce Q, I<sup>2</sup>, and H<sup>2</sup> with corresponding confidence intervals is provided in the <bold>Supplementary Materials</bold>.<xref rid="psp412041-bib-0031" ref-type="ref">31</xref>
+</p>
+      </sec>
+      <sec id="psp412041-sec-0020">
+        <title>Meta‐regression</title>
+        <p>Some of the between‐study variability may be explained by covariates that have been recorded across the study publications. These covariates can be formally fitted as part of a model (meta‐regression) to assess their influence. There are challenges with having covariates that are at the mean level though, in that there may be little difference across studies in those mean covariate values if populations are similar. Patient level data will typically be more informative for understanding the effect of covariates on response. Not all studies may report the covariate of interest, further complicating the analysis. It is important not to interpret summary level meta‐regression effects as subject‐level effects, as typically covariate effects are characterized at the group level. This is analogous to ecological analysis in which all individuals (e.g., defined geographically) are assigned an average valuation for a covariate (e.g., proportion of men). Aggregation bias, or ecological fallacy, is the difference between the association at the individual and group level.<xref rid="psp412041-bib-0033" ref-type="ref">33</xref>
+</p>
+      </sec>
+      <sec id="psp412041-sec-0021">
+        <title>Dose‐response models</title>
+        <p>Dose‐response is a key part of MBMA. In describing dose‐response relationships, it may be important to know, for example, the maximal drug effect, whether the effect is dose‐dependent or whether there is a lower dose to give a similar effect. There are any number of possible models that could be used for dose‐response in this descriptive sense and the choice of model depends on the range of doses studied, whether to include placebo effects and other features seen in the data, such as curvature.</p>
+        <p>The most commonly used model for dose‐response is E<sub>max</sub>, a nonlinear function of dose closely related to the logistic curve.
+<disp-formula id="psp412041-disp-0004"><mml:math id="nlm-math-10"><mml:mrow><mml:mtext> Response</mml:mtext><mml:mo>=</mml:mo><mml:msub><mml:mtext>E</mml:mtext><mml:mn>0</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mtext>E</mml:mtext><mml:mrow><mml:mi>max</mml:mi></mml:mrow></mml:msub><mml:mo>×</mml:mo><mml:msup><mml:mrow><mml:mtext>Dose</mml:mtext></mml:mrow><mml:mtext>λ</mml:mtext></mml:msup></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mtext>ED50</mml:mtext></mml:mrow><mml:mtext>λ</mml:mtext></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mtext>Dose</mml:mtext></mml:mrow><mml:mtext>λ</mml:mtext></mml:msup></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula>
+</p>
+        <p>The three main parameters are E<sub>0</sub> (placebo effect), E<sub>max</sub> (maximal change over placebo), and ED<sub>50</sub> (dose to give 50% of the maximal effect). The sigmoidal E<sub>max</sub> model, adds a fourth, Hill, parameter, 
+<mml:math id="nlm-math-11"><mml:mi>λ</mml:mi></mml:math>, which describes the “steepness” of the S‐shape of the dose‐response relationship.</p>
+        <p>Other models commonly used for dose‐response relationships include exponential, linear, log‐linear, quadratic, and logistic.<xref rid="psp412041-bib-0034" ref-type="ref">34</xref>
+</p>
+      </sec>
+    </sec>
+    <sec id="psp412041-sec-0022">
+      <title>PUBLICATION BIAS</title>
+      <p>A major concern in any meta‐analysis is that not all studies may have been published and that there may be a systematic reason for this, such as only “positive” results being reported. There are a variety of tools, both qualitative and quantitative, available to assess this. A recommended first step is to produce a funnel plot that typically plots a treatment difference (or other measurement of treatment effect) vs. a function of sample size, such as the standard error or variance of the treatment difference. In the absence of publication bias, the plot should show a symmetric funnel. An asymmetric funnel plot does not necessarily mean that there is publication bias as there are several reasons why a funnel plot may not seem symmetric, including random chance and differences between the studies in terms of, for example, study designs and populations. As will be seen in the first example, when there are small numbers of studies in the meta‐analysis, it will be hard to see symmetry or asymmetry clearly. There are also quantitative techniques that attempt to formally assess the asymmetry, such as the Begg and Mazumdar<xref rid="psp412041-bib-0035" ref-type="ref">35</xref> rank correlation method and Egger <italic>et al</italic>.<xref rid="psp412041-bib-0036" ref-type="ref">36</xref> meta‐regression. These methods will be applied to the first example dataset in the next (fifth) section using the R package “Metafor.” There are several other statistical methods to assess publication bias, but we touch only on the ones already described.<xref rid="psp412041-bib-0037" ref-type="ref">37</xref>
+</p>
+    </sec>
+    <sec id="psp412041-sec-0023">
+      <title>SOFTWARE</title>
+      <p>There are many software packages that can carry out meta‐analysis (STATA and Review Manager [RevMan] being just two examples).<xref rid="psp412041-bib-0038" ref-type="ref">38</xref>, <xref rid="psp412041-bib-0039" ref-type="ref">39</xref> For the traditional meta‐analysis, the authors focus on R (using the “metaphor” package with version 3.0.2 of R) and OpenBUGS (version 3.2.3 run from R).<xref rid="psp412041-bib-0040" ref-type="ref">40</xref> For the dose response example, NONMEM (version 7.2) will be used and compared with OpenBUGS.<xref rid="psp412041-bib-0019" ref-type="ref">19</xref>
+</p>
+      <p>Within the R package “metaphor” are various meta‐analysis related functions, including “forest,” which produces forest plots and “RMA,” which can carry out fixed‐effect and random‐effects meta‐analysis and can also incorporate covariates for meta‐regression. These meta‐analysis results can be easily incorporated into the forest plot as can Bayesian estimates from OpenBUGS, which is an advantage of doing both the classical and Bayesian analyses in R.</p>
+      <p>NONMEM is commonly used for pharmacokinetic/pharmacodynamic modeling as it is well suited to fitting non‐linear mixed‐effects models and dealing with different types of pharmacokinetic models. It has also been used for MBMA, particularly for dose response and/or time‐course modeling.</p>
+      <p>Use of R, OpenBUGS, and NONMEM will be demonstrated in the <bold>Supplementary Materials</bold> with comprehensive annotations to explain the code.</p>
+    </sec>
+    <sec id="psp412041-sec-0024">
+      <title>EXAMPLES</title>
+      <sec id="psp412041-sec-0025">
+        <title>Example 1: Western Ontario and McMaster Universities pain in osteoarthritis</title>
+        <p>In order to understand the efficacy characteristics of naproxen in osteoarthritis pain of the knee or hip, internal reports and external literature were searched to find placebo‐controlled studies. Only double blind, placebo‐controlled, randomized, parallel group studies were considered, in which both naproxen 500 mg (given twice a day) and placebo were treatment arms. The end point of interest was the Western Ontario and McMaster Universities (WOMAC) pain score, which consists of five pain‐related questions each of which takes a discrete value from 0 (no pain) to 4 (maximum pain).<xref rid="psp412041-bib-0041" ref-type="ref">41</xref> For each subject, the scores from these five questions are added together to give a total score between 0 (no pain) and 20 (maximum pain). This end point tends to be the primary end point in osteoarthritis pain trials and is typically treated as a continuous random variable. The week two arithmetic means were chosen to be analyzed in the meta‐analysis. <bold>Supplementary Materials Table S1</bold> presents the difference in mean change from baseline in WOMAC pain between naproxen and placebo, with its corresponding standard error. For “flare” trials, subjects were washed out of their pain medications and were required to have a predefined increase in pain (flare) to be eligible for randomization.</p>
+      </sec>
+      <sec id="psp412041-sec-0026">
+        <title>Research questions</title>
+        <p>There were two specific research questions for this example. As described above, a target value was required for a two‐week proof of concept study in osteoarthritis pain for a compound with a new mechanism. As this new compound was not being directly compared to SOC in the proof of concept study, a target value was required based on the SOC vs. placebo.</p>
+        <p>The second question was whether a flare design should be used and whether the treatment effect is different between flare and non‐flare trials. This deals with inclusion criteria to select a study population, as described above in the second section.</p>
+      </sec>
+      <sec id="psp412041-sec-0027">
+        <title>Forest plots</title>
+        <p>Prior to any formal analysis, it is recommended to plot the data. A common approach is to present the data on forest plots.<xref rid="psp412041-bib-0042" ref-type="ref">42</xref> This is a useful way to compare treatment effects across studies, get an initial impression of any heterogeneity, and to identify any outliers. Using the Metafor package in R, there is a function “forest” that produces these plots easily. Code to produce a simple forest plot is presented in the <bold>Supplementary Materials</bold>. As we will see in subsequent sections, analysis summaries can easily be added at the bottom of this plot whether from a classical or Bayesian approach.</p>
+      </sec>
+      <sec id="psp412041-sec-0028">
+        <title>Models for WOMAC pain</title>
+        <p>Here, three models are described; a fixed effects model, a random effects model, and a meta‐regression model fitting “flare (yes/no)” as a binary covariate. For the classical approach, these models were fitted in R using the RMA function within the Metafor package. For the Bayesian approach, R2OpenBUGS was used. Fully annotated code used to fit these models is provided in the <bold>Supplementary Materials</bold>.</p>
+        <p>In this example, standard errors were available for all studies. When standard deviations/errors are missing, then an analyst should look to impute a value where possible. Wiebe <italic>et al</italic>.<xref rid="psp412041-bib-0043" ref-type="ref">43</xref> gave an overview of approaches available to impute missing variance measures and Stevens<xref rid="psp412041-bib-0044" ref-type="ref">44</xref> presented an example of imputing missing variances using WinBUGS.</p>
+      </sec>
+      <sec id="psp412041-sec-0029">
+        <title>Model descriptions</title>
+        <sec id="psp412041-sec-0030">
+          <title>Fixed effects model</title>
+          <p>For the simple fixed effects model, suppose there are r independent studies, each comparing the treatment group with the control group.</p>
+          <p>
+<mml:math id="nlm-math-12"><mml:mi>θ</mml:mi></mml:math> denotes the true measure of treatment effect (treatment vs. control) and 
+<mml:math id="nlm-math-13"><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>θ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:math> its estimate from the i<sup>th</sup> study.</p>
+          <p>Then the general fixed effects model is 
+<mml:math id="nlm-math-14"><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>θ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>θ</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi>ε</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:math> with 
+<mml:math id="nlm-math-15"><mml:mrow><mml:mi mathvariant="normal">E</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:msub><mml:mi>ε</mml:mi><mml:mi mathvariant="normal">i</mml:mi></mml:msub></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mn>0</mml:mn><mml:mo> </mml:mo><mml:mtext>and</mml:mtext><mml:mo> </mml:mo><mml:mtext>Var</mml:mtext><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:msub><mml:mi>ε</mml:mi><mml:mi mathvariant="normal">i</mml:mi></mml:msub></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msubsup><mml:mi>ξ</mml:mi><mml:mi>i</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:math>.</p>
+          <p>Usually, we treat 
+<mml:math id="nlm-math-16"><mml:mrow><mml:msubsup><mml:mi>ξ</mml:mi><mml:mi>i</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:math> as known and equal to the estimated variance of 
+<mml:math id="nlm-math-17"><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>θ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:math>. Thus, 
+<mml:math id="nlm-math-18"><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>θ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub><mml:mo>∼</mml:mo><mml:mi>N</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mi>θ</mml:mi><mml:mo>,</mml:mo><mml:msubsup><mml:mi>s</mml:mi><mml:mi>i</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:mrow></mml:math> where 
+<mml:math id="nlm-math-19"><mml:mrow><mml:msubsup><mml:mi>s</mml:mi><mml:mi>i</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:math> is the estimated variance of 
+<mml:math id="nlm-math-20"><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>θ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:math> and assumed known and the maximum likelihood estimate for 
+<mml:math id="nlm-math-21"><mml:mi>θ</mml:mi></mml:math> is:
+<disp-formula id="psp412041-disp-0005"><mml:math id="nlm-math-22"><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>θ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mrow><mml:mtext>FE</mml:mtext></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mstyle displaystyle="true"><mml:msubsup><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>r</mml:mi></mml:msubsup><mml:mrow><mml:msub><mml:mi>W</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:msub><mml:mover accent="true"><mml:mi>θ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mstyle></mml:mrow><mml:mrow><mml:mstyle displaystyle="true"><mml:msubsup><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>r</mml:mi></mml:msubsup><mml:mrow><mml:msub><mml:mi>W</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mstyle></mml:mrow></mml:mfrac><mml:mo> </mml:mo><mml:mo> </mml:mo><mml:mtext>with</mml:mtext><mml:mo> </mml:mo><mml:msub><mml:mi>W</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:msubsup><mml:mi>s</mml:mi><mml:mi>i</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:mfrac><mml:mo> </mml:mo><mml:mo> </mml:mo><mml:mtext>and</mml:mtext><mml:mo> </mml:mo><mml:mtext>Var</mml:mtext><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>θ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mrow><mml:mtext>FE</mml:mtext></mml:mrow></mml:msub></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mstyle displaystyle="true"><mml:msubsup><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>r</mml:mi></mml:msubsup><mml:mrow><mml:msub><mml:mi>W</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mstyle></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math></disp-formula>
+</p>
+        </sec>
+        <sec id="psp412041-sec-0031">
+          <title>Random effects model</title>
+          <p>For a random effects analysis, the model becomes 
+<mml:math id="nlm-math-23"><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>θ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>θ</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>ε</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:math> where θ<sub>i</sub>∼N(δ,τ<sup>2</sup>), 
+<mml:math id="nlm-math-24"><mml:mrow><mml:mi mathvariant="normal">E</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:msub><mml:mi>ε</mml:mi><mml:mi mathvariant="normal">i</mml:mi></mml:msub></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mn>0</mml:mn><mml:mo> </mml:mo><mml:mtext>and</mml:mtext><mml:mo> </mml:mo><mml:mtext>Var</mml:mtext><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:msub><mml:mi>ε</mml:mi><mml:mi mathvariant="normal">i</mml:mi></mml:msub></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msubsup><mml:mi>ξ</mml:mi><mml:mi>i</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:math>, as above. Note that τ<sup>2</sup> is the between‐study variance of θ<sub>i</sub>. The maximum likelihood estimate for θ is shown below. Note that the weights (W<sub>i</sub>) now incorporate the between‐study variability (τ<sup>2</sup>) and if this is very large compared to the within‐study variability, the studies will be weighted more equally.
+<disp-formula id="psp412041-disp-0006"><mml:math id="nlm-math-25"><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>θ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mrow><mml:mtext>RE</mml:mtext></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mstyle displaystyle="true"><mml:msubsup><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>r</mml:mi></mml:msubsup><mml:mrow><mml:msub><mml:mi>W</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:msub><mml:mover accent="true"><mml:mi>θ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mstyle></mml:mrow><mml:mrow><mml:mstyle displaystyle="true"><mml:msubsup><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>r</mml:mi></mml:msubsup><mml:mrow><mml:msub><mml:mi>W</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mstyle></mml:mrow></mml:mfrac><mml:mo> </mml:mo><mml:mtext>with</mml:mtext><mml:mo> </mml:mo><mml:msub><mml:mi>W</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:msubsup><mml:mi>s</mml:mi><mml:mi>i</mml:mi><mml:mn>2</mml:mn></mml:msubsup><mml:mo>+</mml:mo><mml:msup><mml:mi>τ</mml:mi><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac><mml:mo> </mml:mo><mml:mtext>and</mml:mtext><mml:mo> </mml:mo><mml:mtext>Var</mml:mtext><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>θ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mrow><mml:mtext>RE</mml:mtext></mml:mrow></mml:msub></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mstyle displaystyle="true"><mml:msubsup><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>r</mml:mi></mml:msubsup><mml:mrow><mml:msub><mml:mi>W</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mstyle></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math></disp-formula>
+</p>
+        </sec>
+        <sec id="psp412041-sec-0032">
+          <title>Meta‐regression model</title>
+          <p>The meta‐regression random effects model is 
+<mml:math id="nlm-math-26"><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>θ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>θ</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>θ</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>L</mml:mi></mml:mrow></mml:msub><mml:mo>*</mml:mo><mml:msub><mml:mi>F</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>ε</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:math> where F<sub>i</sub> is 0 for non‐flare and 1 for flare with θ<sub>FL</sub> being the parameter to be estimated representing additional effect due to flare studies. θ<sub>i</sub> has a similar distribution to the random effects model above where θ<sub>i</sub> ∼N(δ, τ<sup>2</sup>). The flare effect could also be included in a fixed effects meta‐regression model.</p>
+        </sec>
+      </sec>
+      <sec id="psp412041-sec-0033">
+        <title>Bayesian considerations for WOMAC pain models</title>
+        <sec id="psp412041-sec-0034">
+          <title>Fixed effects model</title>
+          <p>As described above, the fixed effects model is 
+<mml:math id="nlm-math-27"><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>θ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>θ</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi>ε</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:math> and the within study variances assumed to be known, we only need to estimate θ. In a Bayesian setting, a prior distribution for θ is required. In this case, all our knowledge of the naproxen treatment difference from placebo comes from the data and, hence, an uninformative normally distributed prior centered around no drug effect was used with a large variance (∼N(0,10000)).</p>
+        </sec>
+        <sec id="psp412041-sec-0035">
+          <title>Random effects model</title>
+          <p>As above described, the random effects model is 
+<mml:math id="nlm-math-28"><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>θ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>θ</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>ε</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:math> where 
+<mml:math id="nlm-math-29"><mml:mrow><mml:msub><mml:mi>θ</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>∼</mml:mo><mml:mi>N</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>δ</mml:mi><mml:mo>,</mml:mo><mml:msup><mml:mi>τ</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math> and the within study variances are assumed to be known. In addition to δ, the between‐study standard deviation (τ) is also estimated. In a Bayesian setting, prior distributions for δ and τ are required. As before, a noninformative prior was used for δ (∼N[0,10000]). Choosing prior distributions for the between‐study standard deviation has received much attention in recent years and when dealing with a small number of studies can be problematic.<xref rid="psp412041-bib-0031" ref-type="ref">31</xref>, <xref rid="psp412041-bib-0045" ref-type="ref">45</xref>, <xref rid="psp412041-bib-0046" ref-type="ref">46</xref>, <xref rid="psp412041-bib-0047" ref-type="ref">47</xref> Gelman<xref rid="psp412041-bib-0048" ref-type="ref">48</xref> discussed this issue and proposed several potential priors, including uniform and half normal distributed priors. In these examples, we used a uniform distribution but the code for a half‐normal distribution is also provided in the <bold>Supplementary Materials</bold>. Although, in this particular case, a noninformative prior was used for τ, if there had been a previous meta‐analysis for a similar mechanism drug (e.g., diclofenac, which, like naproxen, is a nonsteroidal anti‐inflammatory drug), then an informative prior may have been appropriate.</p>
+        </sec>
+        <sec id="psp412041-sec-0036">
+          <title>Meta‐regression</title>
+          <p>Here, flare design (yes/no) is being fitted as a categorical covariate and the random effects model is 
+<mml:math id="nlm-math-30"><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>θ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>θ</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>θ</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>L</mml:mi></mml:mrow></mml:msub><mml:mo>*</mml:mo><mml:msub><mml:mi>F</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>ε</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:math> where F<sub>i</sub> is 1 for flare designs and 0 otherwise and θ<sub>FL</sub> is the covariate parameter to be estimated. A noninformative, normally distributed prior, centered around 0 was chosen for θ<sub>FL</sub> (∼N(0,10000)). The other parameters are as defined for the random effects model.</p>
+        </sec>
+        <sec id="psp412041-sec-0037">
+          <title>Alternative modeling approach</title>
+          <p>Instead of pooling a set of treatment differences as above, another approach could be to model the treatment arms in terms of having a placebo response for each of the i studies (μ<sub>i</sub>) and then a parameter representing the additional effect of naproxen (δ<sub>i</sub>, which is N(d, τ<sup>2</sup>) under a random effects framework) such that 
+<mml:math id="nlm-math-31"><mml:mrow><mml:msub><mml:mi>Y</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>μ</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>δ</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>ε</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math> where Y<sub>ij</sub> is the WOMAC pain change from baseline and ε<sub>ij</sub> is the residual (∼N(0,
+<mml:math id="nlm-math-32"><mml:msubsup><mml:mrow><mml:mi mathvariant="normal">s</mml:mi></mml:mrow><mml:mrow><mml:mtext>ij</mml:mtext></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math>/n)). This type of modeling approach is thoroughly described by the second National Institute for Health and Care Excellence evidence synthesis technical support document.<xref rid="psp412041-bib-0049" ref-type="ref">49</xref>
+</p>
+          <p>In the above model, the trial‐specific placebo responses are not given any structural form and it is common for μ<sub>i</sub> to be described as a “nuisance” parameter, something that is required in the model but is of little interest. However, it is not unusual to model the placebo response and investigate covariates that may influence it. Rightly or wrongly, there is a perception that high placebo responses “eat up” the treatment effects and so there is a desire to understand which population and/or study characteristics lead to high placebo responses and design studies to minimize this response. This placebo response is often described as a “baseline” treatment effect, which may be confusing to those who think of “baseline” as a pre‐first dose measurement in a clinical trial (e.g., baseline heart rate).</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec id="psp412041-sec-0038">
+      <title>WOMAC PAIN RESULTS</title>
+      <p>
+<bold>Figure</bold>
+<xref rid="psp412041-fig-0003" ref-type="fig">3</xref> presents a forest plot with additional estimates appended for the fixed effects estimate, random effects estimate, and the prediction interval. Bayesian and classical estimates are presented for comparison. The prediction intervals relate to the “true” underlying treatment effect rather than for the observed data. Given that the priors used in the Bayesian analysis are noninformative, it is not surprising that the two approaches give similar results. The random effects interval and prediction interval are slightly wider for the Bayesian analyses, which reflects the additional uncertainty in the between‐study variance (τ<sup>2</sup>). For both approaches, the prediction interval is noticeably wider than the interval for the random effects estimate, as such, there is increased uncertainty how naproxen might perform vs. placebo in a future trial and it may be desirable to include naproxen as a positive control in a future proof of concept study. In terms of setting target values, it could simply be set to the estimate from the analysis (−1.0 improvement over placebo) or if the target is to be better than naproxen, then the value might be set to, for example 50% greater than the naproxen effect vs. placebo (−1.5). There are many other ways that teams might define target values, but the meta‐analysis estimates will normally play a key role.</p>
+      <fig fig-type="Figure" xml:lang="en" id="psp412041-fig-0003" orientation="portrait" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Difference in mean WOMAC pain for naproxen‐placebo at week two with model estimates.</p>
+        </caption>
+        <graphic id="nlm-graphic-5" xlink:href="PSP4-5-54-g003"/>
+      </fig>
+      <p>From the meta‐regression model, flare did not seem to be a significant covariate. For the frequentist approach, the parameter estimate was −0.14 (95% confidence interval −0.47, 0.18) and for the Bayesian approach was −0.13 (95% credible interval −0.47, 0.24).</p>
+      <p>
+<bold>Figure</bold>
+<xref rid="psp412041-fig-0004" ref-type="fig">4</xref> presents a funnel plot to examine publication bias, which shows no obvious asymmetry. Application of the Begg and Mazumdar<xref rid="psp412041-bib-0035" ref-type="ref">35</xref> rank correlation method results in a <italic>P</italic> value of 0.95 and Egger's test resulted in a <italic>P</italic> value of 0.99, suggesting that there is no evidence of funnel plot asymmetry. It is worth noting that in all the included trials, naproxen was a positive control rather than the experimental drug so one could postulate that the presence of publication bias might result in underestimation of the naproxen effect. To complicate things further, this could also apply to the placebo group response, such that the treatment difference between naproxen is less biased or not biased. Given that most of the trials (10 of 13) were internal unpublished trials, it would be hard to truly assess publication bias here and this example is simply to illustrate some common methods and how to do them in R.</p>
+      <fig fig-type="Figure" xml:lang="en" id="psp412041-fig-0004" orientation="portrait" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Funnel plot for WOMAC pain treatment difference.</p>
+        </caption>
+        <graphic id="nlm-graphic-7" xlink:href="PSP4-5-54-g004"/>
+      </fig>
+    </sec>
+    <sec id="psp412041-sec-0039">
+      <title>EXAMPLE 2: PARESTHESIA RATES WITH TOPIRAMATE IN MIGRAINE PROPHYLAXIS TRIALS</title>
+      <p>Topiramate is an anti‐convulsant drug, which is used across several diseases including epilepsy, obesity, and migraine prophylaxis. A total of six placebo‐controlled studies with topiramate for episodic migraine prophylaxis were included in a dose response meta‐analysis. The paresthesia rates, across trial and dose, are presented in <bold>Supplementary Materials Table 2.</bold>
+</p>
+      <sec id="psp412041-sec-0040">
+        <title>Research questions</title>
+        <p>As described above, this is an example of a learning exercise to better understand the safety and efficacy characteristics of topiramate. Driven by a need to create a product profile for a new compound, this was part of a larger piece of work looking at the therapeutic index for topiramate and what would be a similar or better therapeutic index for a new compound.<xref rid="psp412041-bib-0050" ref-type="ref">50</xref> In brief, a therapeutic index is the window between the dose that gives sufficient effect and the dose that causes toxicity. Mandema <italic>et al</italic>.<xref rid="psp412041-bib-0051" ref-type="ref">51</xref> provide an illustration of a dose response meta‐analysis to compare therapeutic indexes.</p>
+      </sec>
+      <sec id="psp412041-sec-0041">
+        <title>Dose response plot</title>
+        <p>
+<bold>Figure</bold>
+<xref rid="psp412041-fig-0005" ref-type="fig">5</xref> presents the observed paresthesia rate by dose across the six episodic migraine prophylaxis studies in which placebo is included as dose = 0. There is evidence of increasing paresthesia incidence as the topiramate dose increases with bigger relative increases between placebo and 100 mg than between 100 mg and 200 mg. Based on this plot, an E<sub>max</sub> model was chosen to characterize the dose‐response relationship. The plot also reveals variability across the trials with, for example in the placebo groups, a range of paresthesia rates from ∼4–27%.</p>
+        <fig fig-type="Figure" xml:lang="en" id="psp412041-fig-0005" orientation="portrait" position="float">
+          <label>Figure 5</label>
+          <caption>
+            <p>Dose vs. paraesthesia incidence across six episodic migraine prophylaxis trials.</p>
+          </caption>
+          <graphic id="nlm-graphic-9" xlink:href="PSP4-5-54-g005"/>
+        </fig>
+      </sec>
+      <sec id="psp412041-sec-0042">
+        <title>Models for binary data</title>
+        <sec id="psp412041-sec-0043">
+          <title>Model descriptions</title>
+          <p>Common examples of binary response date are efficacy responders (e.g., did a subject achieve at least a 60% reduction from baseline in pain) and adverse events. These data are normally summarized as a proportion (or risk) and it is these proportions that we aim to analyze at the summary data level as a dose‐response model. There are a variety of methods for analyzing proportions, including risk differences, odds ratios, and relative risk.<xref rid="psp412041-bib-0052" ref-type="ref">52</xref>
+</p>
+          <p>In this article, we will focus on analyzing the data with a binomial model as follows. Let the observed number of subjects with paresthesia in the i<sup>th</sup> study and j<sup>th</sup> dose group be defined as Y<sub>ij</sub> with N<sub>ij</sub> being the total number of subjects at risk. Then Y<sub>ij</sub>∼Binomial(N<sub>ij</sub>, p<sub>ij</sub>). It is p<sub>ij</sub> that is modelled in logit space such that:
+<disp-formula id="psp412041-disp-0007"><mml:math id="nlm-math-33"><mml:mrow><mml:mi>L</mml:mi><mml:mi>o</mml:mi><mml:mi>g</mml:mi><mml:mi>i</mml:mi><mml:mi>t</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mi>E</mml:mi><mml:msub><mml:mn>0</mml:mn><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>E</mml:mi><mml:mi>max</mml:mi></mml:msub><mml:mo>*</mml:mo><mml:mi>d</mml:mi><mml:mi>o</mml:mi><mml:mi>s</mml:mi><mml:msub><mml:mi>e</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mi>E</mml:mi><mml:msub><mml:mi>D</mml:mi><mml:mrow><mml:mn>50</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mi>d</mml:mi><mml:mi>o</mml:mi><mml:mi>s</mml:mi><mml:msub><mml:mi>e</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula>
+</p>
+          <p>Where E0<sub>i</sub> is the log odds of paresthesia on placebo for study i and assumed to be normally distributed with mean E<sub>0</sub> and variance τ<sup>2</sup>. This could also be written as E<sub>0i</sub>= E0+η<sub>i</sub> where η<sub>i</sub>∼N(0, τ<sup>2</sup>). This seems to be a reasonable approach given the observed trial‐to‐trial variability observed in <bold>Figure</bold>
+<xref rid="psp412041-fig-0005" ref-type="fig">5</xref>, although there may be covariates that explain some of this variability. Note here that the model includes a between‐study variance term on the overall function, rather than the on‐treatment effect (topiramate vs. placebo; the E<sub>max</sub> part of the model) in contrast to the first WOMAC pain example in which treatment differences (naproxen – placebo) were modelled.</p>
+          <p>As a comparison to the dose response MBMA, a traditional meta‐analysis (using Metafor only) was carried out across the six trials for the topiramate 200 mg dose vs. placebo.</p>
+          <p>As stated above, NONMEM was used for the frequentist dose‐response model and OpenBUGS was used for the Bayesian approach.</p>
+        </sec>
+      </sec>
+      <sec id="psp412041-sec-0044">
+        <title>Bayesian considerations for paresthesia data</title>
+        <p>For the dose‐response model, noninformative priors were used for E<sub>0</sub>, E<sub>max</sub>, ED<sub>50</sub>, and τ. E<sub>0</sub> and E<sub>max</sub> were given normally distributed priors (∼N[0,1.0E‐6] for E<sub>0</sub> and N[0,1.0E‐5] for E<sub>max</sub>), ED<sub>50</sub> a uniform prior (U[0.0001, 1,000]) and for τ, a uniform distribution (U[0,10]) was used. Note that here, the prior for ED<sub>50</sub>, lies between a value just above 0 up to a value five times that of the maximum observed dose (200 mg). For parameters such as ED<sub>50</sub> and variances (or standard deviations), it is recommended to always consider carefully the distributional form and to carry out sensitivity analyses.</p>
+      </sec>
+      <sec id="psp412041-sec-0045">
+        <title>Paresthesia dose‐response results</title>
+        <p>An E<sub>max</sub> dose‐response model gave a good fit to the data across the six trials. An observed vs. predicted plot in the <bold>Supplementary Materials</bold>, generally shows good agreement. The placebo response for the two small trials (<bold>Supplementary Materials</bold>) was higher than the remaining larger trials (the two apparent outliers on the left hand side of the plot) but given their small sample sizes, they are less influential than they would be with large numbers of subjects.</p>
+        <p>
+<bold>Table</bold>
+<xref rid="psp412041-tbl-0001" ref-type="table-wrap">1</xref> presents the parameter estimates from the frequentist and Bayesian approaches that demonstrate similar estimates between the two with the exception of τ, which is estimated as 0.17 in the frequentist results and 0.38 using the Bayesian approach.</p>
+        <table-wrap id="psp412041-tbl-0001" xml:lang="en" orientation="portrait" position="float">
+          <label>Table 1</label>
+          <caption>
+            <p>Parameter estimates from the paresthesia dose response models</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <col style="border-bottom:solid 1px #000000border-right:solid 1px #000000" span="1"/>
+            <col style="border-bottom:solid 1px #000000border-right:solid 1px #000000" span="1"/>
+            <col style="border-bottom:solid 1px #000000border-right:solid 1px #000000" span="1"/>
+            <thead valign="bottom">
+              <tr style="border-bottom:solid 1px #000000">
+                <th align="left" valign="bottom" rowspan="1" colspan="1">Parameter</th>
+                <th align="center" valign="bottom" rowspan="1" colspan="1">Frequentist approach (95% confidence interval)</th>
+                <th align="center" valign="bottom" rowspan="1" colspan="1">Bayesian approach (95% credible interval)</th>
+              </tr>
+            </thead>
+            <tbody valign="top">
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">E0</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">−2.56 (−3.03, −2.09)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">−2.51 (−3.06, −1.90)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">E<sub>max</sub>
+</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">2.91 (2.56, 3.26)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">2.95 (2.50, 3.44)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">ED50, mg</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">17.5 (11.64, 23.36)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">18.18 (6.08, 36.46)</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" rowspan="1" colspan="1">τ</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">0.17 (0.04, 0.30)</td>
+                <td align="left" valign="top" rowspan="1" colspan="1">0.38 (0.05, 1.28)</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <p>
+<bold>Figure</bold>
+<xref rid="psp412041-fig-0006" ref-type="fig">6</xref> presents a prediction plot, for doses 0 to 200 mg of topiramate, based on the Bayesian modeling approach together with the observed data (size of circle proportional to sample size such that bigger circles are larger studies). The black line represents the posterior mean, and the green area represents the prediction interval without accounting for between‐study variability. The blue region represents a prediction interval that does account for the heterogeneity. The additional uncertainty by incorporating between‐study variability is clear.</p>
+        <fig fig-type="Figure" xml:lang="en" id="psp412041-fig-0006" orientation="portrait" position="float">
+          <label>Figure 6</label>
+          <caption>
+            <p>Dose response prediction plot based on Bayesian MBMA.</p>
+          </caption>
+          <graphic id="nlm-graphic-11" xlink:href="PSP4-5-54-g006"/>
+        </fig>
+        <p>
+<bold>Figure</bold>
+<xref rid="psp412041-fig-0007" ref-type="fig">7</xref> presents a forest plot where topiramate 200 mg is compared to placebo across six trials and the resulting traditional landmark random effect estimate is compared to the MBMA estimate and the two approaches yield comparable results; the Bayesian MBMA estimate is slightly higher and the corresponding 95% interval slightly smaller. The frequentist approach with NONMEM results in a more noticeably precise estimate.</p>
+        <fig fig-type="Figure" xml:lang="en" id="psp412041-fig-0007" orientation="portrait" position="float">
+          <label>Figure 7</label>
+          <caption>
+            <p>Forest plot of log odds ratios for paresthesia (topiramate 200 mg vs. placebo).</p>
+          </caption>
+          <graphic id="nlm-graphic-13" xlink:href="PSP4-5-54-g007"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="psp412041-sec-0046">
+      <title>CLOSING REMARKS</title>
+      <p>The two examples are designed to be illustrative in terms of methods and implementation of those methods in R, OpenBUGS, and NONMEM. They are not designed to be exhaustive and, as alluded to above for both examples, further work would be required to understand the observed heterogeneity. Failure to do so will result in much uncertainty when running future trials.</p>
+      <p>It is strongly recommended that the starting point for these types of analyses is a random effects model as it is rare that all the underlying design, end points, and populations are effectively the same across all trials. Some between‐study variability might be explained with covariates, but the limitations of these are discussed above. Presenting random‐effects estimates and corresponding confidence intervals is not sufficient and prediction intervals should be presented to demonstrate the consequence of the estimated between‐study variability when designing future trials.</p>
+      <p>If there are only a small number of studies (e.g., &lt;5) then the between‐study variance (τ<sup>2</sup>) is likely to be poorly estimated. In this case, it may be preferable to simply present the results from the individual trials in a forest plot but without a pooled estimate. An alternative could be, in a Bayesian setting, to use a prior for τ based on an existing meta‐analysis of a similar end point or same end point for a similar compound.<xref rid="psp412041-bib-0053" ref-type="ref">53</xref>
+</p>
+      <p>The RMA function is well suited to simple meta‐analyses of a single timepoint, as illustrated in this tutorial, but is of limited use once more flexible model specifications, such as in the more advanced MBMA example.</p>
+      <p>Nonlinear models can be useful to describe dose‐response relationships, if this forms part of an important research question or to make inferences for a dose not present in many trials. NONMEM and OpenBUGS are both well suited to fitting such models, as are other available packages.<xref rid="psp412041-bib-0054" ref-type="ref">54</xref> In order to choose a suitable model, an exploratory plot should be produced to examine the shape of the dose response. The amount of data available on dose response will vary from compound to compound and depends on whether dose ranging studies (like those performed in phase 2b) are published.</p>
+      <p>Landmark analyses, such as the first example, are quick and straightforward to carry out but do not always use the totality of the data, which may have useful information about time course, onset of action, and maintenance of effect. Ultimately, MBMA should be used to answer the research question(s) whether that be by simple or more involved methods.</p>
+    </sec>
+    <sec id="psp412041-sec-0047">
+      <title>FUTURE TUTORIALS</title>
+      <p>This article is planned to be the first in a series and below is a list of proposed future tutorials:
+<list list-type="bullet" id="psp412041-list-0002"><list-item id="psp412041-li-0004"><p>Longitudinal meta‐analysis.</p></list-item><list-item id="psp412041-li-0005"><p>Combining patient and summary level data.</p></list-item><list-item id="psp412041-li-0006"><p>Application of MBMA for clinical trial simulation.</p></list-item><list-item id="psp412041-li-0007"><p>Multivariate meta‐analysis.</p></list-item><list-item id="psp412041-li-0008"><p>NMA.</p></list-item></list>
+</p>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supporting information</title>
+      <supplementary-material content-type="local-data">
+        <caption>
+          <p>Supporting Information</p>
+        </caption>
+        <media xlink:href="PSP4-5-54-s001.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data">
+        <caption>
+          <p>Supporting Information</p>
+        </caption>
+        <media xlink:href="PSP4-5-54-s002.txt">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data">
+        <caption>
+          <p>Supporting Information</p>
+        </caption>
+        <media xlink:href="PSP4-5-54-s003.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data">
+        <caption>
+          <p>Supporting Information</p>
+        </caption>
+        <media xlink:href="PSP4-5-54-s004.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data">
+        <caption>
+          <p>Supporting Information</p>
+        </caption>
+        <media xlink:href="PSP4-5-54-s005.txt">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data">
+        <caption>
+          <p>Supporting Information</p>
+        </caption>
+        <media xlink:href="PSP4-5-54-s006.txt">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data">
+        <caption>
+          <p>Supporting Information</p>
+        </caption>
+        <media xlink:href="PSP4-5-54-s007.csv">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data">
+        <caption>
+          <p>Supporting Information</p>
+        </caption>
+        <media xlink:href="PSP4-5-54-s008.csv">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data">
+        <caption>
+          <p>Supporting Information</p>
+        </caption>
+        <media xlink:href="PSP4-5-54-s009.csv">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack id="psp412041-sec-0048">
+      <title>CONFLICT OF INTEREST</title>
+      <p>Martin Boucher and Meg Bennetts are employees and shareholders of Pfizer.</p>
+    </ack>
+    <ack id="psp412041-sec-0049">
+      <title>ACKNOWLEDGMENTS</title>
+      <p>The authors thank Timothy Nicholas, Dana Nickens, Mike K. Smith, and Matthew Zierhut for their review of the first draft and also Jonathan French for his past MBMA mentorship and training when at Pfizer, which formed a starting point for this article.</p>
+    </ack>
+    <ref-list content-type="cited-references">
+      <ref id="psp412041-bib-0001">
+        <label>1</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0001">
+<string-name>
+<surname>Holford</surname>, <given-names>N.H.</given-names>
+</string-name> &amp; 
+<string-name>
+<surname>Sheiner</surname>, <given-names>L.B.</given-names>
+</string-name>
+<article-title>Understanding the dose‐effect relationship: clinical application of pharmacokinetic‐pharmacodynamic models</article-title>. <source>Clin. Pharmacokinet.</source>
+<volume>6</volume>, <fpage>429</fpage>–<lpage>453</lpage> (<year>1981</year>).
+<pub-id pub-id-type="pmid">7032803</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0002">
+        <label>2</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0002">
+<string-name>
+<surname>Sheiner</surname>, <given-names>L.B.</given-names>
+</string-name>
+<article-title>Learning versus confirming in clinical drug development</article-title>. <source>Clin. Pharmacol. Ther.</source>
+<volume>61</volume>, <fpage>275</fpage>–<lpage>291</lpage> (<year>1997</year>).
+<pub-id pub-id-type="pmid">9084453</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0003">
+        <label>3</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0003">
+<string-name>
+<surname>Mould</surname>, <given-names>D.R.</given-names>
+</string-name>
+<article-title>Model‐based meta‐analysis: an important tool for making quantitative decisions during drug development</article-title>. <source>Clin. Pharmacol. Ther.</source>
+<volume>92</volume>, <fpage>283</fpage>–<lpage>286</lpage> (<year>2012</year>).
+<pub-id pub-id-type="pmid">22910485</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0004">
+        <label>4</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0004">
+<string-name>
+<surname>Mandema</surname>, <given-names>J.W.</given-names>
+</string-name>, 
+<string-name>
+<surname>Cox</surname>, <given-names>E.</given-names>
+</string-name> &amp; 
+<string-name>
+<surname>Alderman</surname>
+<given-names>J.</given-names>
+</string-name>
+<article-title>Therapeutic benefit of eletriptan compared to sumatriptan for the acute relief of migraine pain—results of a model‐based meta‐analysis that accounts for encapsulation</article-title>. <source>Cephalalgia</source>
+<volume>25</volume>, <fpage>715</fpage>–<lpage>725</lpage> (<year>2005</year>).
+<pub-id pub-id-type="pmid">16109054</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0005">
+        <label>5</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0005">
+<string-name>
+<surname>Mandema</surname>, <given-names>J.W.</given-names>
+</string-name>, 
+<string-name>
+<surname>Salinger</surname>, <given-names>D.H.</given-names>
+</string-name>, 
+<string-name>
+<surname>Baumgartner</surname>, <given-names>S.W.</given-names>
+</string-name> &amp; 
+<string-name>
+<surname>Gibbs</surname>, <given-names>M.A.</given-names>
+</string-name>
+<article-title>A dose‐response meta‐analysis for quantifying relative efficacy of biologics in rheumatoid arthritis</article-title>. <source>Clin. Pharmacol. Ther.</source>
+<volume>90</volume>, <fpage>828</fpage>–<lpage>835</lpage> (<year>2011</year>).
+<pub-id pub-id-type="pmid">22048227</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0006">
+        <label>6</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0006">
+<string-name>
+<surname>Demin</surname>, <given-names>I.</given-names>
+</string-name>, 
+<string-name>
+<surname>Hamrén</surname>, <given-names>B.</given-names>
+</string-name>, 
+<string-name>
+<surname>Luttringer</surname>, <given-names>O.</given-names>
+</string-name>, 
+<string-name>
+<surname>Pillai</surname>, <given-names>G.</given-names>
+</string-name> &amp; 
+<string-name>
+<surname>Jung</surname>, <given-names>T.</given-names>
+</string-name>
+<article-title>Longitudinal model‐based meta‐analysis in rheumatoid arthritis: an application toward model‐based drug development</article-title>. <source>Clin. Pharmacol. Ther.</source>
+<volume>92</volume>, <fpage>352</fpage>–<lpage>359</lpage> (<year>2012</year>).
+<pub-id pub-id-type="pmid">22760002</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0007">
+        <label>7</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0007">
+<string-name>
+<surname>Lalonde</surname>, <given-names>R.L.</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>Model‐based drug development</article-title>. <source>Clin. Pharmacol. Ther.</source>
+<volume>82</volume>, <fpage>21</fpage>
+<italic>–</italic>
+<lpage>32</lpage> (<year>2007</year>).
+<pub-id pub-id-type="pmid">17522597</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0008">
+        <label>8</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0008">
+<string-name>
+<surname>Milligan</surname>, <given-names>P.A.</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>Model‐based drug development: a rational approach to efficiently accelerate drug development</article-title>. <source>Clin. Pharmacol. Ther.</source>
+<volume>93</volume>, <fpage>502</fpage>
+<italic>–</italic>
+<lpage>514</lpage> (<year>2013</year>).
+<pub-id pub-id-type="pmid">23588322</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0009">
+        <label>9</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0009">
+<string-name>
+<surname>Sutton</surname>, <given-names>A.J.</given-names>
+</string-name> &amp; 
+<string-name>
+<surname>Higgins</surname>, <given-names>J.P.</given-names>
+</string-name>
+<article-title>Recent developments in meta‐analysis</article-title>. <source>Stat. Med.</source>
+<volume>27</volume>, <fpage>625</fpage>–<lpage>650</lpage> (<year>2008</year>).
+<pub-id pub-id-type="pmid">17590884</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0010">
+        <label>10</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0010">
+<string-name>
+<surname>Lu</surname>, <given-names>G.</given-names>
+</string-name> &amp; 
+<string-name>
+<surname>Ades</surname>, <given-names>A.E.</given-names>
+</string-name>
+<article-title>Combination of direct and indirect evidence in mixed treatment comparisons</article-title>. <source>Stat. Med.</source>
+<volume>23</volume>, <fpage>3105</fpage>–<lpage>3124</lpage> (<year>2004</year>).
+<pub-id pub-id-type="pmid">15449338</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0011">
+        <label>11</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0011">
+<string-name>
+<surname>Counsell</surname>, <given-names>C.</given-names>
+</string-name>
+<article-title>Formulating questions and locating primary studies for inclusion in systematic reviews</article-title>. <source>Ann. Intern. Med.</source>
+<volume>127</volume>, <fpage>380</fpage>–<lpage>387</lpage> (<year>1997</year>).
+<pub-id pub-id-type="pmid">9273830</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0012">
+        <label>12</label>
+        <mixed-citation publication-type="book" id="psp412041-cit-0012">
+<person-group person-group-type="editor"><name><surname>Higgins</surname><given-names>J.P.T.</given-names></name></person-group> &amp; <person-group person-group-type="editor"><name><surname>Green</surname><given-names>S.</given-names></name></person-group> (eds.). <source>Cochrane Handbook for Systematic Reviews of Interventions</source>, version 5.1.0 [updated March 2011]. <publisher-name>The Cochrane Collaboration</publisher-name> &lt;<ext-link ext-link-type="uri" xlink:href="http://www.cochrane-handbook.org">http://www.cochrane-handbook.org</ext-link>&gt; (<year>2011</year>).
+</mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0013">
+        <label>13</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0013">
+<string-name>
+<surname>Guyatt</surname>, <given-names>G.</given-names>
+</string-name>, <italic>et al</italic>
+<article-title>GRADE guidelines: 1. Introduction‐GRADE evidence profiles and summary of findings tables</article-title>. <source>J. Clin. Epidemiol.</source>
+<volume>64</volume>, <fpage>383</fpage>–<lpage>394</lpage> (<year>2011</year>).
+<pub-id pub-id-type="pmid">21195583</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0014">
+        <label>14</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0014">
+<string-name>
+<surname>Moher</surname>, <given-names>D.</given-names>
+</string-name>, 
+<string-name>
+<surname>Liberati</surname>, <given-names>A.</given-names>
+</string-name>, 
+<string-name>
+<surname>Tetzlaff</surname>, <given-names>J.</given-names>
+</string-name>, 
+<string-name>
+<surname>Altman</surname>, <given-names>D.G.</given-names>
+</string-name> &amp; <collab collab-type="authors">PRISMA Group (2009).</collab>
+<article-title>Preferred reporting items for systematic reviews and meta‐analyses: the PRISMA statement</article-title>. <source>Ann. Intern. Med.</source>
+<volume>151</volume>, <fpage>264</fpage>–<lpage>269</lpage> (<year>2009</year>).
+<pub-id pub-id-type="pmid">19622511</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0015">
+        <label>15</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0015">
+<string-name>
+<surname>Liberati</surname>, <given-names>A.</given-names>
+</string-name>, <italic>et al</italic>
+<article-title>The PRISMA statement for reporting systematic reviews and meta‐analyses of studies that evaluate health care interventions: explanation and elaboration</article-title>. <source>Ann. Intern. Med.</source>
+<volume>151</volume>, <fpage>W65</fpage>–<lpage>W94</lpage> (<year>2009</year>).
+<pub-id pub-id-type="pmid">19622512</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0016">
+        <label>16</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0016">
+<string-name>
+<surname>Stewart</surname>, <given-names>L.A.</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>Preferred reporting items for a systematic review and meta‐analysis of individual participant data: the PRISMA‐IPD statement</article-title>. <source>JAMA</source>
+<volume>313</volume>, <fpage>1657</fpage>–<lpage>1665</lpage> (<year>2015</year>).
+<pub-id pub-id-type="pmid">25919529</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0017">
+        <label>17</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0017">
+<string-name>
+<surname>Hutton</surname>, <given-names>B.</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>The PRISMA extension statement for reporting of systematic reviews incorporating network meta‐analyses of health care interventions: checklist and explanations</article-title>. <source>Ann. Intern. Med.</source>
+<volume>162</volume>, <fpage>777</fpage>–<lpage>784</lpage> (<year>2015</year>).
+<pub-id pub-id-type="pmid">26030634</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0018">
+        <label>18</label>
+        <mixed-citation publication-type="miscellaneous" id="psp412041-cit-0018">
+<collab collab-type="authors">R Core Team.</collab>
+R: a language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. &lt;<ext-link ext-link-type="uri" xlink:href="http://www.R-project">http://www.R-project.org/</ext-link>&gt; (2013).
+</mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0019">
+        <label>19</label>
+        <mixed-citation publication-type="book" id="psp412041-cit-0019">
+<string-name>
+<surname>Beal</surname>, <given-names>S.</given-names>
+</string-name>, 
+<string-name>
+<surname>Sheiner</surname>, <given-names>L.B.</given-names>
+</string-name>, 
+<string-name>
+<surname>Boeckmann</surname>, <given-names>A.</given-names>
+</string-name> &amp; 
+<string-name>
+<surname>Bauer</surname>, <given-names>R.J.</given-names>
+</string-name>
+<source>NONMEM User's Guides (1989–2009)</source> (<publisher-loc>Ellicott City, MD</publisher-loc>, <publisher-name>Icon Development Solutions</publisher-name>, <year>2009</year>).
+</mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0020">
+        <label>20</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0020">
+<string-name>
+<surname>Lunn</surname>, <given-names>D.</given-names>
+</string-name>, 
+<string-name>
+<surname>Spiegelhalter</surname>, <given-names>D.</given-names>
+</string-name>, 
+<string-name>
+<surname>Thomas</surname>, <given-names>A.</given-names>
+</string-name> &amp; 
+<string-name>
+<surname>Best</surname>, <given-names>N.</given-names>
+</string-name>
+<article-title>The BUGS project: evolution, critique and future directions</article-title>. <source>Stat. Med.</source>
+<volume>28</volume>, <fpage>3049</fpage>–<lpage>3067</lpage> (<year>2009</year>).
+<pub-id pub-id-type="pmid">19630097</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0021">
+        <label>21</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0021">
+<string-name>
+<surname>Prentice</surname>, <given-names>R.L.</given-names>
+</string-name>
+<article-title>Surrogate endpoints in clinical trials: definition and operational criteria</article-title>. <source>Stat. Med.</source>
+<volume>8</volume>, <fpage>431</fpage>–<lpage>440</lpage> (<year>1989</year>).
+<pub-id pub-id-type="pmid">2727467</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0022">
+        <label>22</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0022">
+<string-name>
+<surname>Molenberghs</surname>, <given-names>G.</given-names>
+</string-name>, 
+<string-name>
+<surname>Burzykowski</surname>, <given-names>T.</given-names>
+</string-name>, 
+<string-name>
+<surname>Alonso</surname>, <given-names>A.</given-names>
+</string-name>, 
+<string-name>
+<surname>Assam</surname>, <given-names>P.</given-names>
+</string-name>, 
+<string-name>
+<surname>Tilahun</surname>, <given-names>A.</given-names>
+</string-name> &amp; 
+<string-name>
+<surname>Buyse</surname>, <given-names>M.</given-names>
+</string-name>
+<article-title>A unified framework for the evaluation of surrogate endpoints in mental‐health clinical trials</article-title>. <source>Stat. Methods Med. Res.</source>
+<volume>19</volume>, <fpage>205</fpage>–<lpage>236</lpage> (<year>2010</year>).
+<pub-id pub-id-type="pmid">19608602</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0023">
+        <label>23</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0023">
+<string-name>
+<surname>Jansen</surname>, <given-names>J.P.</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>Interpreting indirect treatment comparisons and network meta‐analysis for health‐care decision making: report of the ISPOR Task Force on Indirect Treatment Comparisons Good Research Practices: part 1</article-title>. <source>Value Health</source>
+<volume>14</volume>, <fpage>417</fpage>–<lpage>428</lpage> (<year>2011</year>).
+<pub-id pub-id-type="pmid">21669366</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0024">
+        <label>24</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0024">
+<string-name>
+<surname>Sutton</surname>, <given-names>A.J.</given-names>
+</string-name>, 
+<string-name>
+<surname>Kendrick</surname>, <given-names>D.</given-names>
+</string-name> &amp; 
+<string-name>
+<surname>Coupland</surname>, <given-names>C.A.</given-names>
+</string-name>
+<article-title>Meta‐analysis of individual‐ and aggregate‐level data</article-title>. <source>Stat. Med.</source>
+<volume>27</volume>, <fpage>651</fpage>–<lpage>669</lpage> (<year>2008</year>).
+<pub-id pub-id-type="pmid">17514698</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0025">
+        <label>25</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0025">
+<string-name>
+<surname>Senn</surname>, <given-names>S.</given-names>
+</string-name>
+<article-title>A note regarding ‘random effects</article-title>’. <source>Stat. Med.</source>
+<volume>33</volume>, <fpage>2876</fpage>–<lpage>2877</lpage> (<year>2014</year>).
+<pub-id pub-id-type="pmid">24898710</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0026">
+        <label>26</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0026">
+<string-name>
+<surname>Normand</surname>, <given-names>S.‐L.T.</given-names>
+</string-name>
+<article-title>Tutorial in biostatistics. Meta‐analysis formulating, evaluating, combining, and reporting</article-title>. <source>Stat. Med.</source>
+<volume>18</volume>, <fpage>321</fpage>–<lpage>359</lpage> (<year>1999</year>).
+<pub-id pub-id-type="pmid">10070677</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0027">
+        <label>27</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0027">
+<string-name>
+<surname>Senn</surname>, <given-names>S.J.</given-names>
+</string-name>
+<article-title>The many modes of meta</article-title>. <source>Drug Inf. J.</source>
+<volume>34</volume>, <fpage>535</fpage>–<lpage>549</lpage> (<year>2000</year>).
+</mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0028">
+        <label>28</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0028">
+<string-name>
+<surname>Higgins</surname>
+<given-names>J.P.</given-names>
+</string-name>, 
+<string-name>
+<surname>Thompson</surname>, <given-names>S.G.</given-names>
+</string-name>, 
+<string-name>
+<surname>Deeks</surname>, <given-names>J.J.</given-names>
+</string-name> &amp; 
+<string-name>
+<surname>Altman</surname>, <given-names>D.G.</given-names>
+</string-name>
+<article-title>Measuring inconsistency in meta‐analyses</article-title>. <source>BMJ</source>
+<volume>327</volume>, <fpage>557</fpage>–<lpage>560</lpage> (<year>2003</year>).
+<pub-id pub-id-type="pmid">12958120</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0029">
+        <label>29</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0029">
+<string-name>
+<surname>Gavaghan</surname>, <given-names>D.J.</given-names>
+</string-name>, 
+<string-name>
+<surname>Moore</surname>, <given-names>R.A.</given-names>
+</string-name> &amp; 
+<string-name>
+<surname>McQuay</surname>, <given-names>H.J.</given-names>
+</string-name>
+<article-title>An evaluation of homogeneity tests in meta‐analyses in pain using simulations of individual patient data</article-title>. <source>Pain</source>
+<volume>85</volume>, <fpage>415</fpage>–<lpage>424</lpage> (<year>2000</year>).
+<pub-id pub-id-type="pmid">10781914</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0030">
+        <label>30</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0030">
+<string-name>
+<surname>Rücker</surname>, <given-names>G.</given-names>
+</string-name>, 
+<string-name>
+<surname>Schwarzer</surname>, <given-names>G.</given-names>
+</string-name>, 
+<string-name>
+<surname>Carpenter</surname>, <given-names>J.R.</given-names>
+</string-name> &amp; 
+<string-name>
+<surname>Schumacher</surname>, <given-names>M.</given-names>
+</string-name>
+<article-title>Undue reliance on I(2) in assessing heterogeneity may mislead</article-title>. <source>BMC Med. Res. Methodol.</source>
+<volume>8</volume>, <fpage>79</fpage> (<year>2008</year>).
+<pub-id pub-id-type="pmid">19036172</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0031">
+        <label>31</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0031">
+<string-name>
+<surname>Higgins</surname>, <given-names>J.P.</given-names>
+</string-name> &amp; 
+<string-name>
+<surname>Thompson</surname>, <given-names>S.G.</given-names>
+</string-name>
+<article-title>Quantifying heterogeneity in a meta‐analysis</article-title>. <source>Stat. Med.</source>
+<volume>21</volume>, <fpage>1539</fpage>–<lpage>1558</lpage> (<year>2002</year>).
+<pub-id pub-id-type="pmid">12111919</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0032">
+        <label>32</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0032">
+<string-name>
+<surname>Higgins</surname>, <given-names>J.P.</given-names>
+</string-name>, 
+<string-name>
+<surname>Thompson</surname>, <given-names>S.G.</given-names>
+</string-name> &amp; 
+<string-name>
+<surname>Spiegelhalter</surname>, <given-names>D.J.</given-names>
+</string-name>
+<article-title>A re‐evaluation of random‐effects meta‐analysis</article-title>. <source>J. R. Stat. Soc. Ser. A Stat. Soc.</source>
+<volume>172</volume>, <fpage>137</fpage>–<lpage>159</lpage> (<year>2009</year>).
+</mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0033">
+        <label>33</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0033">
+<string-name>
+<surname>Berlin</surname>, <given-names>J.A.</given-names>
+</string-name>, 
+<string-name>
+<surname>Santanna</surname>, <given-names>J.</given-names>
+</string-name>, 
+<string-name>
+<surname>Schmid</surname>, <given-names>C.H.</given-names>
+</string-name>, 
+<string-name>
+<surname>Szczech</surname>, <given-names>L.A.</given-names>
+</string-name>, 
+<string-name>
+<surname>Feldman</surname>, <given-names>H.I.</given-names>
+</string-name> &amp; <collab collab-type="authors">Anti‐Lymphocyte Antibody Induction Therapy Study Group</collab>
+. <article-title>Individual patient‐ versus group‐level data meta‐regressions for the investigation of treatment effect modifiers: ecological bias rears its ugly head</article-title>. <source>Stat. Med.</source>
+<volume>21</volume>, <fpage>371</fpage>–<lpage>387</lpage> (<year>2002</year>).
+<pub-id pub-id-type="pmid">11813224</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0034">
+        <label>34</label>
+        <mixed-citation publication-type="book" id="psp412041-cit-0034">
+<string-name>
+<surname>Pinheiro</surname>, <given-names>J.C.</given-names>
+</string-name>, 
+<string-name>
+<surname>Bretz</surname>, <given-names>F.</given-names>
+</string-name> &amp; 
+<string-name>
+<surname>Branson</surname>, <given-names>M.</given-names>
+</string-name>
+<chapter-title>Analysis of dose‐response studies – modeling approaches</chapter-title> In: <person-group person-group-type="editor"><name><surname>Ting</surname></name></person-group> (ed.) <source>Dose Finding in Drug Development</source> (<publisher-name>Springer</publisher-name>, <publisher-loc>New York</publisher-loc>, <year>2006</year>).
+</mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0035">
+        <label>35</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0035">
+<string-name>
+<surname>Begg</surname>, <given-names>C.B.</given-names>
+</string-name> &amp; 
+<string-name>
+<surname>Mazumdar</surname>, <given-names>M.</given-names>
+</string-name>
+<article-title>Operating characteristics of a rank correlation test for publication bias</article-title>. <source>Biometrics</source>
+<volume>50</volume>, <fpage>1088</fpage>–<lpage>1101</lpage> (<year>1994</year>).
+<pub-id pub-id-type="pmid">7786990</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0036">
+        <label>36</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0036">
+<string-name>
+<surname>Egger</surname>, <given-names>M.</given-names>
+</string-name>, 
+<string-name>
+<surname>Davey Smith</surname>, <given-names>G.</given-names>
+</string-name>, 
+<string-name>
+<surname>Schneider</surname>, <given-names>M.</given-names>
+</string-name> &amp; 
+<string-name>
+<surname>Minder</surname>, <given-names>C.</given-names>
+</string-name>
+<article-title>Bias in meta‐analysis detected by a simple, graphical test</article-title>. <source>BMJ</source>
+<volume>315</volume>, <fpage>629</fpage>–<lpage>634</lpage> (<year>1997</year>).
+<pub-id pub-id-type="pmid">9310563</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0037">
+        <label>37</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0037">
+<string-name>
+<surname>Jin</surname>, <given-names>Z.C.</given-names>
+</string-name>, 
+<string-name>
+<surname>Zhou</surname>, <given-names>X.H.</given-names>
+</string-name> &amp; 
+<string-name>
+<surname>He</surname>, <given-names>J.</given-names>
+</string-name>
+<article-title>Statistical methods for dealing with publication bias in meta‐analysis</article-title>. <source>Stat. Med.</source>
+<volume>34</volume>, <fpage>343</fpage>
+<italic>–</italic>
+<lpage>360</lpage> (<year>2015</year>).
+<pub-id pub-id-type="pmid">25363575</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0038">
+        <label>38</label>
+        <mixed-citation publication-type="miscellaneous" id="psp412041-cit-0038">
+<collab collab-type="authors">Review Manager (RevMan) [Computer program].</collab>
+Version 5.3. (The Nordic Cochrane Centre, The Cochrane Collaboration, Copenhagen, <year>2014</year>).
+</mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0039">
+        <label>39</label>
+        <mixed-citation publication-type="book" id="psp412041-cit-0039">
+<collab collab-type="authors">StataCorp.</collab>
+<source>Stata statistical software: release 14</source> (<publisher-name>StataCorp LP</publisher-name>, <publisher-loc>College Station, TX</publisher-loc>, <year>2015</year>).
+</mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0040">
+        <label>40</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0040">
+<string-name>
+<surname>Viechtbauer</surname>, <given-names>W.</given-names>
+</string-name>
+<article-title>Conducting meta‐analyses in R with the Metafor package</article-title>. <source>J. Stat. Softw.</source>
+<volume>36</volume>, <fpage>1</fpage>–<lpage>48</lpage> (<year>2010</year>).
+</mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0041">
+        <label>41</label>
+        <mixed-citation publication-type="book" id="psp412041-cit-0041">
+<person-group person-group-type="editor"><name><surname>Bellamy</surname><given-names>N.</given-names></name></person-group> (ed.). <source>WOMAC osteoarthritis index: a user's guide</source> (<publisher-loc>Ontario</publisher-loc>, <publisher-name>The Western Ontario and McMaster Universities</publisher-name>, <year>1995</year>).
+</mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0042">
+        <label>42</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0042">
+<string-name>
+<surname>Lewis</surname>, <given-names>S.</given-names>
+</string-name> &amp; 
+<string-name>
+<surname>Clarke</surname>, <given-names>M.</given-names>
+</string-name>
+<article-title>Forest plots: trying to see the wood and the trees</article-title>. <source>BMJ</source>
+<volume>322</volume>, <fpage>1479</fpage>–<lpage>1480</lpage> (<year>2001</year>).
+<pub-id pub-id-type="pmid">11408310</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0043">
+        <label>43</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0043">
+<string-name>
+<surname>Wiebe</surname>, <given-names>N.</given-names>
+</string-name>, 
+<string-name>
+<surname>Vandermeer</surname>, <given-names>B.</given-names>
+</string-name>, 
+<string-name>
+<surname>Platt</surname>, <given-names>R.W.</given-names>
+</string-name>, 
+<string-name>
+<surname>Klassen</surname>, <given-names>T.P.</given-names>
+</string-name>, 
+<string-name>
+<surname>Moher</surname>, <given-names>D.</given-names>
+</string-name> &amp; 
+<string-name>
+<surname>Barrowman</surname>, <given-names>N.J.</given-names>
+</string-name>
+<article-title>A systematic review identifies a lack of standardization in methods for handling missing variance data</article-title>. <source>J. Clin. Epidemiol.</source>
+<volume>59</volume>, <fpage>342</fpage>–<lpage>353</lpage> (<year>2006</year>).
+<pub-id pub-id-type="pmid">16549255</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0044">
+        <label>44</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0044">
+<string-name>
+<surname>Stevens</surname>, <given-names>J.W.</given-names>
+</string-name>
+<article-title>A note on dealing with missing standard errors in meta‐analyses of continuous outcome measures in WinBUGS</article-title>. <source>Pharm. Stat.</source>
+<volume>10</volume>, <fpage>374</fpage>–<lpage>378</lpage> (<year>2011</year>).
+<pub-id pub-id-type="pmid">21394888</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0045">
+        <label>45</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0045">
+<string-name>
+<surname>Riley</surname>, <given-names>R.D.</given-names>
+</string-name>, 
+<string-name>
+<surname>Higgins</surname>, <given-names>J.P.</given-names>
+</string-name> &amp; 
+<string-name>
+<surname>Deeks</surname>, <given-names>J.J.</given-names>
+</string-name>
+<article-title>Interpretation of random effects meta‐analyses</article-title>. <source>BMJ</source>
+<volume>342</volume>, <fpage>d549</fpage> (<year>2011</year>).
+<pub-id pub-id-type="pmid">21310794</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0046">
+        <label>46</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0046">
+<string-name>
+<surname>Lambert</surname>, <given-names>P.C.</given-names>
+</string-name>, 
+<string-name>
+<surname>Sutton</surname>, <given-names>A.J.</given-names>
+</string-name>, 
+<string-name>
+<surname>Burton</surname>, <given-names>P.R.</given-names>
+</string-name>, 
+<string-name>
+<surname>Abrams</surname>, <given-names>K.R.</given-names>
+</string-name> &amp; 
+<string-name>
+<surname>Jones</surname>, <given-names>D.R.</given-names>
+</string-name>
+<article-title>How vague is vague? A simulation study of the impact of the use of vague prior distributions in MCMC using WinBUGS</article-title>. <source>Stat. Med.</source>
+<volume>24</volume>, <fpage>2401</fpage>–<lpage>2428</lpage> (<year>2005</year>).
+<pub-id pub-id-type="pmid">16015676</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0047">
+        <label>47</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0047">
+<string-name>
+<surname>Senn</surname>, <given-names>S.</given-names>
+</string-name>
+<article-title>Trying to be precise about vagueness</article-title>. <source>Stat. Med.</source>
+<volume>26</volume>, <fpage>1417</fpage>–<lpage>1430</lpage> (<year>2007</year>).
+<pub-id pub-id-type="pmid">16906552</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0048">
+        <label>48</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0048">
+<string-name>
+<surname>Gelman</surname>, <given-names>A.</given-names>
+</string-name>
+<article-title>Prior distributions for variance parameters in hierarchical models</article-title>. <source>Bayesian Ana.</source>
+<volume>1</volume>, <fpage>515</fpage>–<lpage>533</lpage> (<year>2006</year>).
+</mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0049">
+        <label>49</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0049">
+<string-name>
+<surname>Dias</surname>, <given-names>S.</given-names>
+</string-name>, 
+<string-name>
+<surname>Sutton</surname>, <given-names>A.J.</given-names>
+</string-name>, 
+<string-name>
+<surname>Ades</surname>, <given-names>A.E.</given-names>
+</string-name> &amp; 
+<string-name>
+<surname>Welton</surname>, <given-names>N.J.</given-names>
+</string-name>
+<article-title>Evidence synthesis for decision making 2: a generalized linear modeling framework for pairwise and network meta‐analysis of randomized controlled trials</article-title>. <source>Med. Decis. Making</source>
+<volume>33</volume>, <fpage>607</fpage>–<lpage>617</lpage> (<year>2013</year>).
+<pub-id pub-id-type="pmid">23104435</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0050">
+        <label>50</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0050">
+<string-name>
+<surname>Muller</surname>, <given-names>P.Y.</given-names>
+</string-name> &amp; 
+<string-name>
+<surname>Milton</surname>, <given-names>M.N.</given-names>
+</string-name>
+<article-title>The determination and interpretation of the therapeutic index in drug development</article-title>. <source>Nat. Rev. Drug Discov.</source>
+<volume>11</volume>, <fpage>751</fpage>–<lpage>761</lpage> (<year>2012</year>).
+<pub-id pub-id-type="pmid">22935759</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0051">
+        <label>51</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0051">
+<string-name>
+<surname>Mandema</surname>, <given-names>J.W.</given-names>
+</string-name>, 
+<string-name>
+<surname>Boyd</surname>, <given-names>R.A.</given-names>
+</string-name> &amp; 
+<string-name>
+<surname>DiCarlo</surname>, <given-names>L.A.</given-names>
+</string-name>
+<article-title>Therapeutic index of anticoagulants for prevention of venous thromboembolism following orthopedic surgery: a dose‐response meta‐analysis</article-title>. <source>Clin. Pharmacol. Ther.</source>
+<volume>90</volume>, <fpage>820</fpage>–<lpage>827</lpage> (<year>2011</year>).
+<pub-id pub-id-type="pmid">22048231</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0052">
+        <label>52</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0052">
+<string-name>
+<surname>Deeks</surname>, <given-names>J.J.</given-names>
+</string-name>
+<article-title>Issues in the selection of a summary statistic for meta‐analysis of clinical trials with binary outcomes</article-title>. <source>Stat. Med.</source>
+<volume>21</volume>, <fpage>1575</fpage>–<lpage>1600</lpage> (<year>2002</year>).
+<pub-id pub-id-type="pmid">12111921</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0053">
+        <label>53</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0053">
+<string-name>
+<surname>Higgins</surname>, <given-names>J.P.</given-names>
+</string-name> &amp; 
+<string-name>
+<surname>Whitehead</surname>, <given-names>A.</given-names>
+</string-name>
+<article-title>Borrowing strength from external trials in a meta‐analysis</article-title>. <source>Stat. Med.</source>
+<volume>15</volume>, <fpage>2733</fpage>–<lpage>2749</lpage> (<year>1996</year>).
+<pub-id pub-id-type="pmid">8981683</pub-id></mixed-citation>
+      </ref>
+      <ref id="psp412041-bib-0054">
+        <label>54</label>
+        <mixed-citation publication-type="journal" id="psp412041-cit-0054">
+<string-name>
+<surname>Smith</surname>, <given-names>M.K.</given-names>
+</string-name>
+<article-title>Software for non‐linear mixed effects modeling: a review of several packages</article-title>. <source>Pharm. Stat.</source>
+<volume>2</volume>, <fpage>69</fpage>–<lpage>73</lpage> (<year>2003</year>).
+</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>
